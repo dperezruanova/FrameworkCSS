@@ -1,0 +1,529 @@
+[grid] {
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+[cell] {
+  flex: 1;
+  box-sizing: border-box;
+}
+[grid~="gutters"]>[cell] {
+  padding: 0.5em;
+  box-shadow: inset 0 0 0 1px #fff, inset 0 0 0 2px #00f;
+}
+@media (min-width: 0px) {
+  [grid~="justify:start"] {
+    justify-content: flex-start;
+  }
+  [grid~="justify:end"] {
+    justify-content: flex-end;
+  }
+  [grid~="justify:center"] {
+    justify-content: center;
+  }
+  [grid~="justify:between"] {
+    justify-content: space-between;
+  }
+  [grid~="justify:around"] {
+    justify-content: space-around;
+  }
+  [grid~="start"] {
+    align-items: flex-start;
+  }
+  [grid~="end"] {
+    align-items: flex-end;
+  }
+  [grid~="center"] {
+    align-items: center;
+  }
+  [grid~="stretch"] {
+    align-items: stretch;
+  }
+  [cell~="start"] {
+    align-self: flex-start;
+  }
+  [cell~="end"] {
+    align-self: flex-end;
+  }
+  [cell~="center"] {
+    align-self: center;
+  }
+  [cell~="stretch"] {
+    align-self: stretch;
+  }
+  [grid~="5"]>[cell] {
+    flex: 0 0 20%;
+  }
+  [grid]>[cell~="5"] {
+    flex: 0 0 20%;
+  }
+  [grid~="4"]>[cell] {
+    flex: 0 0 25%;
+  }
+  [grid]>[cell~="4"] {
+    flex: 0 0 25%;
+  }
+  [grid~="3"]>[cell] {
+    flex: 0 0 33.333333333333336%;
+  }
+  [grid]>[cell~="3"] {
+    flex: 0 0 33.333333333333336%;
+  }
+  [grid~="2"]>[cell] {
+    flex: 0 0 50%;
+  }
+  [grid]>[cell~="2"] {
+    flex: 0 0 50%;
+  }
+  [grid~="1"]>[cell] {
+    flex: 0 0 100%;
+  }
+  [grid]>[cell~="1"] {
+    flex: 0 0 100%;
+  }
+  [grid]>[cell~="flex"] {
+    flex: auto;
+  }
+  [cell~="5:offset"] {
+    margin-left: 20%;
+  }
+  [cell~="4:offset"] {
+    margin-left: 25%;
+  }
+  [cell~="3:offset"] {
+    margin-left: 33.333333333333336%;
+  }
+  [cell~="2:offset"] {
+    margin-left: 50%;
+  }
+}
+@media (min-width: 480px) {
+  [grid~="mob:justify:start"] {
+    justify-content: flex-start;
+  }
+  [grid~="mob:justify:end"] {
+    justify-content: flex-end;
+  }
+  [grid~="mob:justify:center"] {
+    justify-content: center;
+  }
+  [grid~="mob:justify:between"] {
+    justify-content: space-between;
+  }
+  [grid~="mob:justify:around"] {
+    justify-content: space-around;
+  }
+  [grid~="mob:start"] {
+    align-items: flex-start;
+  }
+  [grid~="mob:end"] {
+    align-items: flex-end;
+  }
+  [grid~="mob:center"] {
+    align-items: center;
+  }
+  [grid~="mob:stretch"] {
+    align-items: stretch;
+  }
+  [cell~="mob:start"] {
+    align-self: flex-start;
+  }
+  [cell~="mob:end"] {
+    align-self: flex-end;
+  }
+  [cell~="mob:center"] {
+    align-self: center;
+  }
+  [cell~="mob:stretch"] {
+    align-self: stretch;
+  }
+  [grid~="mob:5"]>[cell] {
+    flex: 0 0 20%;
+  }
+  [grid]>[cell~="mob:5"] {
+    flex: 0 0 20%;
+  }
+  [grid~="mob:4"]>[cell] {
+    flex: 0 0 25%;
+  }
+  [grid]>[cell~="mob:4"] {
+    flex: 0 0 25%;
+  }
+  [grid~="mob:3"]>[cell] {
+    flex: 0 0 33.333333333333336%;
+  }
+  [grid]>[cell~="mob:3"] {
+    flex: 0 0 33.333333333333336%;
+  }
+  [grid~="mob:2"]>[cell] {
+    flex: 0 0 50%;
+  }
+  [grid]>[cell~="mob:2"] {
+    flex: 0 0 50%;
+  }
+  [grid~="mob:1"]>[cell] {
+    flex: 0 0 100%;
+  }
+  [grid]>[cell~="mob:1"] {
+    flex: 0 0 100%;
+  }
+  [grid]>[cell~="mob:flex"] {
+    flex: auto;
+  }
+  [cell~="mob:5:offset"] {
+    margin-left: 20%;
+  }
+  [cell~="mob:4:offset"] {
+    margin-left: 25%;
+  }
+  [cell~="mob:3:offset"] {
+    margin-left: 33.333333333333336%;
+  }
+  [cell~="mob:2:offset"] {
+    margin-left: 50%;
+  }
+}
+@media (min-width: 576px) {
+  [grid~="tab:justify:start"] {
+    justify-content: flex-start;
+  }
+  [grid~="tab:justify:end"] {
+    justify-content: flex-end;
+  }
+  [grid~="tab:justify:center"] {
+    justify-content: center;
+  }
+  [grid~="tab:justify:between"] {
+    justify-content: space-between;
+  }
+  [grid~="tab:justify:around"] {
+    justify-content: space-around;
+  }
+  [grid~="tab:start"] {
+    align-items: flex-start;
+  }
+  [grid~="tab:end"] {
+    align-items: flex-end;
+  }
+  [grid~="tab:center"] {
+    align-items: center;
+  }
+  [grid~="tab:stretch"] {
+    align-items: stretch;
+  }
+  [cell~="tab:start"] {
+    align-self: flex-start;
+  }
+  [cell~="tab:end"] {
+    align-self: flex-end;
+  }
+  [cell~="tab:center"] {
+    align-self: center;
+  }
+  [cell~="tab:stretch"] {
+    align-self: stretch;
+  }
+  [grid~="tab:5"]>[cell] {
+    flex: 0 0 20%;
+  }
+  [grid]>[cell~="tab:5"] {
+    flex: 0 0 20%;
+  }
+  [grid~="tab:4"]>[cell] {
+    flex: 0 0 25%;
+  }
+  [grid]>[cell~="tab:4"] {
+    flex: 0 0 25%;
+  }
+  [grid~="tab:3"]>[cell] {
+    flex: 0 0 33.333333333333336%;
+  }
+  [grid]>[cell~="tab:3"] {
+    flex: 0 0 33.333333333333336%;
+  }
+  [grid~="tab:2"]>[cell] {
+    flex: 0 0 50%;
+  }
+  [grid]>[cell~="tab:2"] {
+    flex: 0 0 50%;
+  }
+  [grid~="tab:1"]>[cell] {
+    flex: 0 0 100%;
+  }
+  [grid]>[cell~="tab:1"] {
+    flex: 0 0 100%;
+  }
+  [grid]>[cell~="tab:flex"] {
+    flex: auto;
+  }
+  [cell~="tab:5:offset"] {
+    margin-left: 20%;
+  }
+  [cell~="tab:4:offset"] {
+    margin-left: 25%;
+  }
+  [cell~="tab:3:offset"] {
+    margin-left: 33.333333333333336%;
+  }
+  [cell~="tab:2:offset"] {
+    margin-left: 50%;
+  }
+}
+@media (min-width: 768px) {
+  [grid~="lap:justify:start"] {
+    justify-content: flex-start;
+  }
+  [grid~="lap:justify:end"] {
+    justify-content: flex-end;
+  }
+  [grid~="lap:justify:center"] {
+    justify-content: center;
+  }
+  [grid~="lap:justify:between"] {
+    justify-content: space-between;
+  }
+  [grid~="lap:justify:around"] {
+    justify-content: space-around;
+  }
+  [grid~="lap:start"] {
+    align-items: flex-start;
+  }
+  [grid~="lap:end"] {
+    align-items: flex-end;
+  }
+  [grid~="lap:center"] {
+    align-items: center;
+  }
+  [grid~="lap:stretch"] {
+    align-items: stretch;
+  }
+  [cell~="lap:start"] {
+    align-self: flex-start;
+  }
+  [cell~="lap:end"] {
+    align-self: flex-end;
+  }
+  [cell~="lap:center"] {
+    align-self: center;
+  }
+  [cell~="lap:stretch"] {
+    align-self: stretch;
+  }
+  [grid~="lap:5"]>[cell] {
+    flex: 0 0 20%;
+  }
+  [grid]>[cell~="lap:5"] {
+    flex: 0 0 20%;
+  }
+  [grid~="lap:4"]>[cell] {
+    flex: 0 0 25%;
+  }
+  [grid]>[cell~="lap:4"] {
+    flex: 0 0 25%;
+  }
+  [grid~="lap:3"]>[cell] {
+    flex: 0 0 33.333333333333336%;
+  }
+  [grid]>[cell~="lap:3"] {
+    flex: 0 0 33.333333333333336%;
+  }
+  [grid~="lap:2"]>[cell] {
+    flex: 0 0 50%;
+  }
+  [grid]>[cell~="lap:2"] {
+    flex: 0 0 50%;
+  }
+  [grid~="lap:1"]>[cell] {
+    flex: 0 0 100%;
+  }
+  [grid]>[cell~="lap:1"] {
+    flex: 0 0 100%;
+  }
+  [grid]>[cell~="lap:flex"] {
+    flex: auto;
+  }
+  [cell~="lap:5:offset"] {
+    margin-left: 20%;
+  }
+  [cell~="lap:4:offset"] {
+    margin-left: 25%;
+  }
+  [cell~="lap:3:offset"] {
+    margin-left: 33.333333333333336%;
+  }
+  [cell~="lap:2:offset"] {
+    margin-left: 50%;
+  }
+}
+@media (min-width: 1200px) {
+  [grid~="desk:justify:start"] {
+    justify-content: flex-start;
+  }
+  [grid~="desk:justify:end"] {
+    justify-content: flex-end;
+  }
+  [grid~="desk:justify:center"] {
+    justify-content: center;
+  }
+  [grid~="desk:justify:between"] {
+    justify-content: space-between;
+  }
+  [grid~="desk:justify:around"] {
+    justify-content: space-around;
+  }
+  [grid~="desk:start"] {
+    align-items: flex-start;
+  }
+  [grid~="desk:end"] {
+    align-items: flex-end;
+  }
+  [grid~="desk:center"] {
+    align-items: center;
+  }
+  [grid~="desk:stretch"] {
+    align-items: stretch;
+  }
+  [cell~="desk:start"] {
+    align-self: flex-start;
+  }
+  [cell~="desk:end"] {
+    align-self: flex-end;
+  }
+  [cell~="desk:center"] {
+    align-self: center;
+  }
+  [cell~="desk:stretch"] {
+    align-self: stretch;
+  }
+  [grid~="desk:5"]>[cell] {
+    flex: 0 0 20%;
+  }
+  [grid]>[cell~="desk:5"] {
+    flex: 0 0 20%;
+  }
+  [grid~="desk:4"]>[cell] {
+    flex: 0 0 25%;
+  }
+  [grid]>[cell~="desk:4"] {
+    flex: 0 0 25%;
+  }
+  [grid~="desk:3"]>[cell] {
+    flex: 0 0 33.333333333333336%;
+  }
+  [grid]>[cell~="desk:3"] {
+    flex: 0 0 33.333333333333336%;
+  }
+  [grid~="desk:2"]>[cell] {
+    flex: 0 0 50%;
+  }
+  [grid]>[cell~="desk:2"] {
+    flex: 0 0 50%;
+  }
+  [grid~="desk:1"]>[cell] {
+    flex: 0 0 100%;
+  }
+  [grid]>[cell~="desk:1"] {
+    flex: 0 0 100%;
+  }
+  [grid]>[cell~="desk:flex"] {
+    flex: auto;
+  }
+  [cell~="desk:5:offset"] {
+    margin-left: 20%;
+  }
+  [cell~="desk:4:offset"] {
+    margin-left: 25%;
+  }
+  [cell~="desk:3:offset"] {
+    margin-left: 33.333333333333336%;
+  }
+  [cell~="desk:2:offset"] {
+    margin-left: 50%;
+  }
+}
+@media (min-width: 1600px) {
+  [grid~="wide:justify:start"] {
+    justify-content: flex-start;
+  }
+  [grid~="wide:justify:end"] {
+    justify-content: flex-end;
+  }
+  [grid~="wide:justify:center"] {
+    justify-content: center;
+  }
+  [grid~="wide:justify:between"] {
+    justify-content: space-between;
+  }
+  [grid~="wide:justify:around"] {
+    justify-content: space-around;
+  }
+  [grid~="wide:start"] {
+    align-items: flex-start;
+  }
+  [grid~="wide:end"] {
+    align-items: flex-end;
+  }
+  [grid~="wide:center"] {
+    align-items: center;
+  }
+  [grid~="wide:stretch"] {
+    align-items: stretch;
+  }
+  [cell~="wide:start"] {
+    align-self: flex-start;
+  }
+  [cell~="wide:end"] {
+    align-self: flex-end;
+  }
+  [cell~="wide:center"] {
+    align-self: center;
+  }
+  [cell~="wide:stretch"] {
+    align-self: stretch;
+  }
+  [grid~="wide:5"]>[cell] {
+    flex: 0 0 20%;
+  }
+  [grid]>[cell~="wide:5"] {
+    flex: 0 0 20%;
+  }
+  [grid~="wide:4"]>[cell] {
+    flex: 0 0 25%;
+  }
+  [grid]>[cell~="wide:4"] {
+    flex: 0 0 25%;
+  }
+  [grid~="wide:3"]>[cell] {
+    flex: 0 0 33.333333333333336%;
+  }
+  [grid]>[cell~="wide:3"] {
+    flex: 0 0 33.333333333333336%;
+  }
+  [grid~="wide:2"]>[cell] {
+    flex: 0 0 50%;
+  }
+  [grid]>[cell~="wide:2"] {
+    flex: 0 0 50%;
+  }
+  [grid~="wide:1"]>[cell] {
+    flex: 0 0 100%;
+  }
+  [grid]>[cell~="wide:1"] {
+    flex: 0 0 100%;
+  }
+  [grid]>[cell~="wide:flex"] {
+    flex: auto;
+  }
+  [cell~="wide:5:offset"] {
+    margin-left: 20%;
+  }
+  [cell~="wide:4:offset"] {
+    margin-left: 25%;
+  }
+  [cell~="wide:3:offset"] {
+    margin-left: 33.333333333333336%;
+  }
+  [cell~="wide:2:offset"] {
+    margin-left: 50%;
+  }
+}

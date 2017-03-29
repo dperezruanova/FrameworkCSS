@@ -1,0 +1,133 @@
+body {
+  font-family: Roboto, sans-serif;
+}
+[StickyFooter] {
+  display: flex;
+  flex-direction: column;
+}
+[StickyFooter],
+html {
+  height: 100%;
+  margin: 0;
+}
+[StickyFooter]>header,
+[StickyFooter]>footer {
+  flex: none;
+  line-height: 3em;
+  padding: 0 1em;
+  text-align: center;
+}
+[StickyFooter] main {
+  flex: 1;
+}
+[buttons] {
+  display: inline-flex;
+}
+[buttons]>*:not(:first-child) {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  margin-left: 1px;
+}
+[buttons]>*:not(:last-child) {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+[buttons~="full"] {
+  display: flex;
+}
+[buttons~="full"]>a,
+[buttons~="full"]>button {
+  justify-content: center;
+  flex: 1 1 auto;
+}
+a,
+button {
+  font: 1em/2em Roboto;
+  display: flex;
+  align-items: center;
+  padding: 0 0.5em;
+  border: 0;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+a:before,
+button:before {
+  content: attr(before);
+  padding-right: 0.25em;
+}
+a:after,
+button:after {
+  content: attr(after);
+  padding-left: 0.25em;
+}
+a:before,
+button:before,
+a:after,
+button:after {
+  font-family: 'Material Icons';
+  font-size: 1.3em;
+  text-transform: lowercase;
+}
+[card] {
+  background: #fff;
+  box-sizing: border-box;
+  box-shadow: rgba(0,0,0,0.2) 0 0.75px 2px;
+  display: flex;
+  flex-direction: column;
+  margin: 1em;
+}
+[card] header {
+  display: flex;
+  padding: 0.5em;
+}
+[card] header img {
+  border-radius: 50%;
+  margin-right: 1em;
+  height: 3em;
+  width: 3em;
+}
+[card] header div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+[card] header div h4 {
+  margin: 0;
+}
+[card] header div small {
+  color: #808080;
+}
+[card] img {
+  width: 100%;
+  object-fit: cover;
+}
+[card] title,
+[card] figcaption {
+  margin: 0;
+  padding: 0.75em;
+}
+[card] [buttons] {
+  display: flex;
+  border-top: 1px solid #eee;
+}
+[card] [buttons] button::-moz-focus-inner {
+  border: 0;
+}
+[card] [buttons] a,
+[card] [buttons] button {
+  padding: 0;
+  justify-content: center;
+  flex: 1 1 auto;
+  font: 1em/3em Roboto;
+  outline: none;
+  background: none;
+  color: #fb8c00;
+  border: none;
+}
+[card] [buttons] a:hover,
+[card] [buttons] button:hover,
+[card] [buttons] a:focus,
+[card] [buttons] button:focus {
+  background: #fff3e0;
+  outline: none;
+}

@@ -1,0 +1,31 @@
+doctype
+html(lang="es-ES")
+	head
+		title Framework
+		meta(charset:utf-8)
+		link(href="css/grid.css" rel="stylesheet")
+		link(href="css/colors.css" rel="stylesheet")
+		link(href="css/components.css" rel="stylesheet")
+		link(href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet")
+		link(href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet")
+	body(StickyFooter)
+		header(colors="bg:BlueGrey txt:White") HEADER
+		main
+			div(grid="justify:between")
+				div(cell) between
+				div(cell) between
+				div(cell) between
+			div(grid="justify:around")
+				div(cell) around
+				div(cell) around
+				div(cell) around
+			div(grid="justify:center")
+				div(cell) center
+				div(cell) center
+			div(grid="justify:start")
+				div(cell) start
+				div(cell) start
+			div(grid="justify:end")
+				div(cell) end
+				div(cell) end
+		footer(colors="bg:BlueGrey txt:White") FOOTER

@@ -1,0 +1,1764 @@
+[color~="bg:Red"] {
+  color: #fff;
+}
+[color~="bg:Red"] {
+  background-color: #f44336;
+}
+[color~="bg:Red:50"] {
+  background-color: #ffebee;
+}
+[color~="bg:Red:100"] {
+  background-color: #ffcdd2;
+}
+[color~="bg:Red:200"] {
+  background-color: #ef9a9a;
+}
+[color~="bg:Red:300"] {
+  background-color: #e57373;
+}
+[color~="bg:Red:400"] {
+  background-color: #ef5350;
+}
+[color~="bg:Red:500"] {
+  background-color: #f44336;
+}
+[color~="bg:Red:600"] {
+  background-color: #e53935;
+}
+[color~="bg:Red:700"] {
+  background-color: #d32f2f;
+}
+[color~="bg:Red:800"] {
+  background-color: #c62828;
+}
+[color~="bg:Red:900"] {
+  background-color: #b71c1c;
+}
+[color~="bg:Red:A100"] {
+  background-color: #ff8a80;
+}
+[color~="bg:Red:A200"] {
+  background-color: #ff5252;
+}
+[color~="bg:Red:A400"] {
+  background-color: #ff1744;
+}
+[color~="bg:Red:A700"] {
+  background-color: #d50000;
+}
+[color~="bg:Pink"] {
+  color: #fff;
+}
+[color~="bg:Pink"] {
+  background-color: #e91e63;
+}
+[color~="bg:Pink:50"] {
+  background-color: #fce4ec;
+}
+[color~="bg:Pink:100"] {
+  background-color: #f8bbd0;
+}
+[color~="bg:Pink:200"] {
+  background-color: #f48fb1;
+}
+[color~="bg:Pink:300"] {
+  background-color: #f06292;
+}
+[color~="bg:Pink:400"] {
+  background-color: #ec407a;
+}
+[color~="bg:Pink:500"] {
+  background-color: #e91e63;
+}
+[color~="bg:Pink:600"] {
+  background-color: #d81b60;
+}
+[color~="bg:Pink:700"] {
+  background-color: #c2185b;
+}
+[color~="bg:Pink:800"] {
+  background-color: #ad1457;
+}
+[color~="bg:Pink:900"] {
+  background-color: #880e4f;
+}
+[color~="bg:Pink:A100"] {
+  background-color: #ff80ab;
+}
+[color~="bg:Pink:A200"] {
+  background-color: #ff4081;
+}
+[color~="bg:Pink:A400"] {
+  background-color: #f50057;
+}
+[color~="bg:Pink:A700"] {
+  background-color: #c51162;
+}
+[color~="bg:Purple"] {
+  color: #fff;
+}
+[color~="bg:Purple"] {
+  background-color: #9c27b0;
+}
+[color~="bg:Purple:50"] {
+  background-color: #f3e5f5;
+}
+[color~="bg:Purple:100"] {
+  background-color: #e1bee7;
+}
+[color~="bg:Purple:200"] {
+  background-color: #ce93d8;
+}
+[color~="bg:Purple:300"] {
+  background-color: #ba68c8;
+}
+[color~="bg:Purple:400"] {
+  background-color: #ab47bc;
+}
+[color~="bg:Purple:500"] {
+  background-color: #9c27b0;
+}
+[color~="bg:Purple:600"] {
+  background-color: #8e24aa;
+}
+[color~="bg:Purple:700"] {
+  background-color: #7b1fa2;
+}
+[color~="bg:Purple:800"] {
+  background-color: #6a1b9a;
+}
+[color~="bg:Purple:900"] {
+  background-color: #4a148c;
+}
+[color~="bg:Purple:A100"] {
+  background-color: #ea80fc;
+}
+[color~="bg:Purple:A200"] {
+  background-color: #e040fb;
+}
+[color~="bg:Purple:A400"] {
+  background-color: #d500f9;
+}
+[color~="bg:Purple:A700"] {
+  background-color: #a0f;
+}
+[color~="bg:DeepPurple"] {
+  color: #fff;
+}
+[color~="bg:DeepPurple"] {
+  background-color: #673ab7;
+}
+[color~="bg:DeepPurple:50"] {
+  background-color: #ede7f6;
+}
+[color~="bg:DeepPurple:100"] {
+  background-color: #d1c4e9;
+}
+[color~="bg:DeepPurple:200"] {
+  background-color: #b39ddb;
+}
+[color~="bg:DeepPurple:300"] {
+  background-color: #9575cd;
+}
+[color~="bg:DeepPurple:400"] {
+  background-color: #7e57c2;
+}
+[color~="bg:DeepPurple:500"] {
+  background-color: #673ab7;
+}
+[color~="bg:DeepPurple:600"] {
+  background-color: #5e35b1;
+}
+[color~="bg:DeepPurple:700"] {
+  background-color: #512da8;
+}
+[color~="bg:DeepPurple:800"] {
+  background-color: #4527a0;
+}
+[color~="bg:DeepPurple:900"] {
+  background-color: #311b92;
+}
+[color~="bg:DeepPurple:A100"] {
+  background-color: #b388ff;
+}
+[color~="bg:DeepPurple:A200"] {
+  background-color: #7c4dff;
+}
+[color~="bg:DeepPurple:A400"] {
+  background-color: #651fff;
+}
+[color~="bg:DeepPurple:A700"] {
+  background-color: #6200ea;
+}
+[color~="bg:Indigo"] {
+  color: #fff;
+}
+[color~="bg:Indigo"] {
+  background-color: #3f51b5;
+}
+[color~="bg:Indigo:50"] {
+  background-color: #e8eaf6;
+}
+[color~="bg:Indigo:100"] {
+  background-color: #c5cae9;
+}
+[color~="bg:Indigo:200"] {
+  background-color: #9fa8da;
+}
+[color~="bg:Indigo:300"] {
+  background-color: #7986cb;
+}
+[color~="bg:Indigo:400"] {
+  background-color: #5c6bc0;
+}
+[color~="bg:Indigo:500"] {
+  background-color: #3f51b5;
+}
+[color~="bg:Indigo:600"] {
+  background-color: #3949ab;
+}
+[color~="bg:Indigo:700"] {
+  background-color: #303f9f;
+}
+[color~="bg:Indigo:800"] {
+  background-color: #283593;
+}
+[color~="bg:Indigo:900"] {
+  background-color: #1a237e;
+}
+[color~="bg:Indigo:A100"] {
+  background-color: #8c9eff;
+}
+[color~="bg:Indigo:A200"] {
+  background-color: #536dfe;
+}
+[color~="bg:Indigo:A400"] {
+  background-color: #3d5afe;
+}
+[color~="bg:Indigo:A700"] {
+  background-color: #304ffe;
+}
+[color~="bg:Blue"] {
+  color: #fff;
+}
+[color~="bg:Blue"] {
+  background-color: #2196f3;
+}
+[color~="bg:Blue:50"] {
+  background-color: #e3f2fd;
+}
+[color~="bg:Blue:100"] {
+  background-color: #bbdefb;
+}
+[color~="bg:Blue:200"] {
+  background-color: #90caf9;
+}
+[color~="bg:Blue:300"] {
+  background-color: #64b5f6;
+}
+[color~="bg:Blue:400"] {
+  background-color: #42a5f5;
+}
+[color~="bg:Blue:500"] {
+  background-color: #2196f3;
+}
+[color~="bg:Blue:600"] {
+  background-color: #1e88e5;
+}
+[color~="bg:Blue:700"] {
+  background-color: #1976d2;
+}
+[color~="bg:Blue:800"] {
+  background-color: #1565c0;
+}
+[color~="bg:Blue:900"] {
+  background-color: #0d47a1;
+}
+[color~="bg:Blue:A100"] {
+  background-color: #82b1ff;
+}
+[color~="bg:Blue:A200"] {
+  background-color: #448aff;
+}
+[color~="bg:Blue:A400"] {
+  background-color: #2979ff;
+}
+[color~="bg:Blue:A700"] {
+  background-color: #2962ff;
+}
+[color~="bg:LightBlue"] {
+  color: #fff;
+}
+[color~="bg:LightBlue"] {
+  background-color: #03a9f4;
+}
+[color~="bg:LightBlue:50"] {
+  background-color: #e1f5fe;
+}
+[color~="bg:LightBlue:100"] {
+  background-color: #b3e5fc;
+}
+[color~="bg:LightBlue:200"] {
+  background-color: #81d4fa;
+}
+[color~="bg:LightBlue:300"] {
+  background-color: #4fc3f7;
+}
+[color~="bg:LightBlue:400"] {
+  background-color: #29b6f6;
+}
+[color~="bg:LightBlue:500"] {
+  background-color: #03a9f4;
+}
+[color~="bg:LightBlue:600"] {
+  background-color: #039be5;
+}
+[color~="bg:LightBlue:700"] {
+  background-color: #0288d1;
+}
+[color~="bg:LightBlue:800"] {
+  background-color: #0277bd;
+}
+[color~="bg:LightBlue:900"] {
+  background-color: #01579b;
+}
+[color~="bg:LightBlue:A100"] {
+  background-color: #80d8ff;
+}
+[color~="bg:LightBlue:A200"] {
+  background-color: #40c4ff;
+}
+[color~="bg:LightBlue:A400"] {
+  background-color: #00b0ff;
+}
+[color~="bg:LightBlue:A700"] {
+  background-color: #0091ea;
+}
+[color~="bg:Cyan"] {
+  color: #fff;
+}
+[color~="bg:Cyan"] {
+  background-color: #00bcd4;
+}
+[color~="bg:Cyan:50"] {
+  background-color: #e0f7fa;
+}
+[color~="bg:Cyan:100"] {
+  background-color: #b2ebf2;
+}
+[color~="bg:Cyan:200"] {
+  background-color: #80deea;
+}
+[color~="bg:Cyan:300"] {
+  background-color: #4dd0e1;
+}
+[color~="bg:Cyan:400"] {
+  background-color: #26c6da;
+}
+[color~="bg:Cyan:500"] {
+  background-color: #00bcd4;
+}
+[color~="bg:Cyan:600"] {
+  background-color: #00acc1;
+}
+[color~="bg:Cyan:700"] {
+  background-color: #0097a7;
+}
+[color~="bg:Cyan:800"] {
+  background-color: #00838f;
+}
+[color~="bg:Cyan:900"] {
+  background-color: #006064;
+}
+[color~="bg:Cyan:A100"] {
+  background-color: #84ffff;
+}
+[color~="bg:Cyan:A200"] {
+  background-color: #18ffff;
+}
+[color~="bg:Cyan:A400"] {
+  background-color: #00e5ff;
+}
+[color~="bg:Cyan:A700"] {
+  background-color: #00b8d4;
+}
+[color~="bg:Teal"] {
+  color: #fff;
+}
+[color~="bg:Teal"] {
+  background-color: #009688;
+}
+[color~="bg:Teal:50"] {
+  background-color: #e0f2f1;
+}
+[color~="bg:Teal:100"] {
+  background-color: #b2dfdb;
+}
+[color~="bg:Teal:200"] {
+  background-color: #80cbc4;
+}
+[color~="bg:Teal:300"] {
+  background-color: #4db6ac;
+}
+[color~="bg:Teal:400"] {
+  background-color: #26a69a;
+}
+[color~="bg:Teal:500"] {
+  background-color: #009688;
+}
+[color~="bg:Teal:600"] {
+  background-color: #00897b;
+}
+[color~="bg:Teal:700"] {
+  background-color: #00796b;
+}
+[color~="bg:Teal:800"] {
+  background-color: #00695c;
+}
+[color~="bg:Teal:900"] {
+  background-color: #004d40;
+}
+[color~="bg:Teal:A100"] {
+  background-color: #a7ffeb;
+}
+[color~="bg:Teal:A200"] {
+  background-color: #64ffda;
+}
+[color~="bg:Teal:A400"] {
+  background-color: #1de9b6;
+}
+[color~="bg:Teal:A700"] {
+  background-color: #00bfa5;
+}
+[color~="bg:Green"] {
+  color: #fff;
+}
+[color~="bg:Green"] {
+  background-color: #4caf50;
+}
+[color~="bg:Green:50"] {
+  background-color: #e8f5e9;
+}
+[color~="bg:Green:100"] {
+  background-color: #c8e6c9;
+}
+[color~="bg:Green:200"] {
+  background-color: #a5d6a7;
+}
+[color~="bg:Green:300"] {
+  background-color: #81c784;
+}
+[color~="bg:Green:400"] {
+  background-color: #66bb6a;
+}
+[color~="bg:Green:500"] {
+  background-color: #4caf50;
+}
+[color~="bg:Green:600"] {
+  background-color: #43a047;
+}
+[color~="bg:Green:700"] {
+  background-color: #388e3c;
+}
+[color~="bg:Green:800"] {
+  background-color: #2e7d32;
+}
+[color~="bg:Green:900"] {
+  background-color: #1b5e20;
+}
+[color~="bg:Green:A100"] {
+  background-color: #b9f6ca;
+}
+[color~="bg:Green:A200"] {
+  background-color: #69f0ae;
+}
+[color~="bg:Green:A400"] {
+  background-color: #00e676;
+}
+[color~="bg:Green:A700"] {
+  background-color: #00c853;
+}
+[color~="bg:LightGreen"] {
+  color: #fff;
+}
+[color~="bg:LightGreen"] {
+  background-color: #8bc34a;
+}
+[color~="bg:LightGreen:50"] {
+  background-color: #f1f8e9;
+}
+[color~="bg:LightGreen:100"] {
+  background-color: #dcedc8;
+}
+[color~="bg:LightGreen:200"] {
+  background-color: #c5e1a5;
+}
+[color~="bg:LightGreen:300"] {
+  background-color: #aed581;
+}
+[color~="bg:LightGreen:400"] {
+  background-color: #9ccc65;
+}
+[color~="bg:LightGreen:500"] {
+  background-color: #8bc34a;
+}
+[color~="bg:LightGreen:600"] {
+  background-color: #7cb342;
+}
+[color~="bg:LightGreen:700"] {
+  background-color: #689f38;
+}
+[color~="bg:LightGreen:800"] {
+  background-color: #558b2f;
+}
+[color~="bg:LightGreen:900"] {
+  background-color: #33691e;
+}
+[color~="bg:LightGreen:A100"] {
+  background-color: #ccff90;
+}
+[color~="bg:LightGreen:A200"] {
+  background-color: #b2ff59;
+}
+[color~="bg:LightGreen:A400"] {
+  background-color: #76ff03;
+}
+[color~="bg:LightGreen:A700"] {
+  background-color: #64dd17;
+}
+[color~="bg:Lime"] {
+  color: #fff;
+}
+[color~="bg:Lime"] {
+  background-color: #cddc39;
+}
+[color~="bg:Lime:50"] {
+  background-color: #f9fbe7;
+}
+[color~="bg:Lime:100"] {
+  background-color: #f0f4c3;
+}
+[color~="bg:Lime:200"] {
+  background-color: #e6ee9c;
+}
+[color~="bg:Lime:300"] {
+  background-color: #dce775;
+}
+[color~="bg:Lime:400"] {
+  background-color: #d4e157;
+}
+[color~="bg:Lime:500"] {
+  background-color: #cddc39;
+}
+[color~="bg:Lime:600"] {
+  background-color: #c0ca33;
+}
+[color~="bg:Lime:700"] {
+  background-color: #afb42b;
+}
+[color~="bg:Lime:800"] {
+  background-color: #9e9d24;
+}
+[color~="bg:Lime:900"] {
+  background-color: #827717;
+}
+[color~="bg:Lime:A100"] {
+  background-color: #f4ff81;
+}
+[color~="bg:Lime:A200"] {
+  background-color: #eeff41;
+}
+[color~="bg:Lime:A400"] {
+  background-color: #c6ff00;
+}
+[color~="bg:Lime:A700"] {
+  background-color: #aeea00;
+}
+[color~="bg:Yellow"] {
+  color: #fff;
+}
+[color~="bg:Yellow"] {
+  background-color: #ffeb3b;
+}
+[color~="bg:Yellow:50"] {
+  background-color: #fffde7;
+}
+[color~="bg:Yellow:100"] {
+  background-color: #fff9c4;
+}
+[color~="bg:Yellow:200"] {
+  background-color: #fff59d;
+}
+[color~="bg:Yellow:300"] {
+  background-color: #fff176;
+}
+[color~="bg:Yellow:400"] {
+  background-color: #ffee58;
+}
+[color~="bg:Yellow:500"] {
+  background-color: #ffeb3b;
+}
+[color~="bg:Yellow:600"] {
+  background-color: #fdd835;
+}
+[color~="bg:Yellow:700"] {
+  background-color: #fbc02d;
+}
+[color~="bg:Yellow:800"] {
+  background-color: #f9a825;
+}
+[color~="bg:Yellow:900"] {
+  background-color: #f57f17;
+}
+[color~="bg:Yellow:A100"] {
+  background-color: #ffff8d;
+}
+[color~="bg:Yellow:A200"] {
+  background-color: #ff0;
+}
+[color~="bg:Yellow:A400"] {
+  background-color: #ffea00;
+}
+[color~="bg:Yellow:A700"] {
+  background-color: #ffd600;
+}
+[color~="bg:Amber"] {
+  color: #fff;
+}
+[color~="bg:Amber"] {
+  background-color: #ffc107;
+}
+[color~="bg:Amber:50"] {
+  background-color: #fff8e1;
+}
+[color~="bg:Amber:100"] {
+  background-color: #ffecb3;
+}
+[color~="bg:Amber:200"] {
+  background-color: #ffe082;
+}
+[color~="bg:Amber:300"] {
+  background-color: #ffd54f;
+}
+[color~="bg:Amber:400"] {
+  background-color: #ffca28;
+}
+[color~="bg:Amber:500"] {
+  background-color: #ffc107;
+}
+[color~="bg:Amber:600"] {
+  background-color: #ffb300;
+}
+[color~="bg:Amber:700"] {
+  background-color: #ffa000;
+}
+[color~="bg:Amber:800"] {
+  background-color: #ff8f00;
+}
+[color~="bg:Amber:900"] {
+  background-color: #ff6f00;
+}
+[color~="bg:Amber:A100"] {
+  background-color: #ffe57f;
+}
+[color~="bg:Amber:A200"] {
+  background-color: #ffd740;
+}
+[color~="bg:Amber:A400"] {
+  background-color: #ffc400;
+}
+[color~="bg:Amber:A700"] {
+  background-color: #ffab00;
+}
+[color~="bg:Orange"] {
+  color: #fff;
+}
+[color~="bg:Orange"] {
+  background-color: #ff9800;
+}
+[color~="bg:Orange:50"] {
+  background-color: #fff3e0;
+}
+[color~="bg:Orange:100"] {
+  background-color: #ffe0b2;
+}
+[color~="bg:Orange:200"] {
+  background-color: #ffcc80;
+}
+[color~="bg:Orange:300"] {
+  background-color: #ffb74d;
+}
+[color~="bg:Orange:400"] {
+  background-color: #ffa726;
+}
+[color~="bg:Orange:500"] {
+  background-color: #ff9800;
+}
+[color~="bg:Orange:600"] {
+  background-color: #fb8c00;
+}
+[color~="bg:Orange:700"] {
+  background-color: #f57c00;
+}
+[color~="bg:Orange:800"] {
+  background-color: #ef6c00;
+}
+[color~="bg:Orange:900"] {
+  background-color: #e65100;
+}
+[color~="bg:Orange:A100"] {
+  background-color: #ffd180;
+}
+[color~="bg:Orange:A200"] {
+  background-color: #ffab40;
+}
+[color~="bg:Orange:A400"] {
+  background-color: #ff9100;
+}
+[color~="bg:Orange:A700"] {
+  background-color: #ff6d00;
+}
+[color~="bg:DeepOrange"] {
+  color: #fff;
+}
+[color~="bg:DeepOrange"] {
+  background-color: #ff5722;
+}
+[color~="bg:DeepOrange:50"] {
+  background-color: #fbe9e7;
+}
+[color~="bg:DeepOrange:100"] {
+  background-color: #ffccbc;
+}
+[color~="bg:DeepOrange:200"] {
+  background-color: #ffab91;
+}
+[color~="bg:DeepOrange:300"] {
+  background-color: #ff8a65;
+}
+[color~="bg:DeepOrange:400"] {
+  background-color: #ff7043;
+}
+[color~="bg:DeepOrange:500"] {
+  background-color: #ff5722;
+}
+[color~="bg:DeepOrange:600"] {
+  background-color: #f4511e;
+}
+[color~="bg:DeepOrange:700"] {
+  background-color: #e64a19;
+}
+[color~="bg:DeepOrange:800"] {
+  background-color: #d84315;
+}
+[color~="bg:DeepOrange:900"] {
+  background-color: #bf360c;
+}
+[color~="bg:DeepOrange:A100"] {
+  background-color: #ff9e80;
+}
+[color~="bg:DeepOrange:A200"] {
+  background-color: #ff6e40;
+}
+[color~="bg:DeepOrange:A400"] {
+  background-color: #ff3d00;
+}
+[color~="bg:DeepOrange:A700"] {
+  background-color: #dd2c00;
+}
+[color~="bg:Brown"] {
+  color: #fff;
+}
+[color~="bg:Brown"] {
+  background-color: #795548;
+}
+[color~="bg:Brown:50"] {
+  background-color: #efebe9;
+}
+[color~="bg:Brown:100"] {
+  background-color: #d7ccc8;
+}
+[color~="bg:Brown:200"] {
+  background-color: #bcaaa4;
+}
+[color~="bg:Brown:300"] {
+  background-color: #a1887f;
+}
+[color~="bg:Brown:400"] {
+  background-color: #8d6e63;
+}
+[color~="bg:Brown:500"] {
+  background-color: #795548;
+}
+[color~="bg:Brown:600"] {
+  background-color: #6d4c41;
+}
+[color~="bg:Brown:700"] {
+  background-color: #5d4037;
+}
+[color~="bg:Brown:800"] {
+  background-color: #4e342e;
+}
+[color~="bg:Brown:900"] {
+  background-color: #3e2723;
+}
+[color~="bg:Grey"] {
+  color: #fff;
+}
+[color~="bg:Grey"] {
+  background-color: #9e9e9e;
+}
+[color~="bg:Grey:50"] {
+  background-color: #fafafa;
+}
+[color~="bg:Grey:100"] {
+  background-color: #f5f5f5;
+}
+[color~="bg:Grey:200"] {
+  background-color: #eee;
+}
+[color~="bg:Grey:300"] {
+  background-color: #e0e0e0;
+}
+[color~="bg:Grey:400"] {
+  background-color: #bdbdbd;
+}
+[color~="bg:Grey:500"] {
+  background-color: #9e9e9e;
+}
+[color~="bg:Grey:600"] {
+  background-color: #757575;
+}
+[color~="bg:Grey:700"] {
+  background-color: #616161;
+}
+[color~="bg:Grey:800"] {
+  background-color: #424242;
+}
+[color~="bg:Grey:900"] {
+  background-color: #212121;
+}
+[color~="bg:BlueGrey"] {
+  color: #fff;
+}
+[color~="bg:BlueGrey"] {
+  background-color: #607d8b;
+}
+[color~="bg:BlueGrey:50"] {
+  background-color: #eceff1;
+}
+[color~="bg:BlueGrey:100"] {
+  background-color: #cfd8dc;
+}
+[color~="bg:BlueGrey:200"] {
+  background-color: #b0bec5;
+}
+[color~="bg:BlueGrey:300"] {
+  background-color: #90a4ae;
+}
+[color~="bg:BlueGrey:400"] {
+  background-color: #78909c;
+}
+[color~="bg:BlueGrey:500"] {
+  background-color: #607d8b;
+}
+[color~="bg:BlueGrey:600"] {
+  background-color: #546e7a;
+}
+[color~="bg:BlueGrey:700"] {
+  background-color: #455a64;
+}
+[color~="bg:BlueGrey:800"] {
+  background-color: #37474f;
+}
+[color~="bg:BlueGrey:900"] {
+  background-color: #263238;
+}
+[color~="bg:White"] {
+  background-color: White;
+}
+[color~="bg:Black"] {
+  background-color: Black;
+}
+[color~="bg:Red"] {
+  color: #fff;
+}
+[color~="txt:Red"] {
+  color: #f44336;
+}
+[color~="txt:Red:50"] {
+  color: #ffebee;
+}
+[color~="txt:Red:100"] {
+  color: #ffcdd2;
+}
+[color~="txt:Red:200"] {
+  color: #ef9a9a;
+}
+[color~="txt:Red:300"] {
+  color: #e57373;
+}
+[color~="txt:Red:400"] {
+  color: #ef5350;
+}
+[color~="txt:Red:500"] {
+  color: #f44336;
+}
+[color~="txt:Red:600"] {
+  color: #e53935;
+}
+[color~="txt:Red:700"] {
+  color: #d32f2f;
+}
+[color~="txt:Red:800"] {
+  color: #c62828;
+}
+[color~="txt:Red:900"] {
+  color: #b71c1c;
+}
+[color~="txt:Red:A100"] {
+  color: #ff8a80;
+}
+[color~="txt:Red:A200"] {
+  color: #ff5252;
+}
+[color~="txt:Red:A400"] {
+  color: #ff1744;
+}
+[color~="txt:Red:A700"] {
+  color: #d50000;
+}
+[color~="bg:Pink"] {
+  color: #fff;
+}
+[color~="txt:Pink"] {
+  color: #e91e63;
+}
+[color~="txt:Pink:50"] {
+  color: #fce4ec;
+}
+[color~="txt:Pink:100"] {
+  color: #f8bbd0;
+}
+[color~="txt:Pink:200"] {
+  color: #f48fb1;
+}
+[color~="txt:Pink:300"] {
+  color: #f06292;
+}
+[color~="txt:Pink:400"] {
+  color: #ec407a;
+}
+[color~="txt:Pink:500"] {
+  color: #e91e63;
+}
+[color~="txt:Pink:600"] {
+  color: #d81b60;
+}
+[color~="txt:Pink:700"] {
+  color: #c2185b;
+}
+[color~="txt:Pink:800"] {
+  color: #ad1457;
+}
+[color~="txt:Pink:900"] {
+  color: #880e4f;
+}
+[color~="txt:Pink:A100"] {
+  color: #ff80ab;
+}
+[color~="txt:Pink:A200"] {
+  color: #ff4081;
+}
+[color~="txt:Pink:A400"] {
+  color: #f50057;
+}
+[color~="txt:Pink:A700"] {
+  color: #c51162;
+}
+[color~="bg:Purple"] {
+  color: #fff;
+}
+[color~="txt:Purple"] {
+  color: #9c27b0;
+}
+[color~="txt:Purple:50"] {
+  color: #f3e5f5;
+}
+[color~="txt:Purple:100"] {
+  color: #e1bee7;
+}
+[color~="txt:Purple:200"] {
+  color: #ce93d8;
+}
+[color~="txt:Purple:300"] {
+  color: #ba68c8;
+}
+[color~="txt:Purple:400"] {
+  color: #ab47bc;
+}
+[color~="txt:Purple:500"] {
+  color: #9c27b0;
+}
+[color~="txt:Purple:600"] {
+  color: #8e24aa;
+}
+[color~="txt:Purple:700"] {
+  color: #7b1fa2;
+}
+[color~="txt:Purple:800"] {
+  color: #6a1b9a;
+}
+[color~="txt:Purple:900"] {
+  color: #4a148c;
+}
+[color~="txt:Purple:A100"] {
+  color: #ea80fc;
+}
+[color~="txt:Purple:A200"] {
+  color: #e040fb;
+}
+[color~="txt:Purple:A400"] {
+  color: #d500f9;
+}
+[color~="txt:Purple:A700"] {
+  color: #a0f;
+}
+[color~="bg:DeepPurple"] {
+  color: #fff;
+}
+[color~="txt:DeepPurple"] {
+  color: #673ab7;
+}
+[color~="txt:DeepPurple:50"] {
+  color: #ede7f6;
+}
+[color~="txt:DeepPurple:100"] {
+  color: #d1c4e9;
+}
+[color~="txt:DeepPurple:200"] {
+  color: #b39ddb;
+}
+[color~="txt:DeepPurple:300"] {
+  color: #9575cd;
+}
+[color~="txt:DeepPurple:400"] {
+  color: #7e57c2;
+}
+[color~="txt:DeepPurple:500"] {
+  color: #673ab7;
+}
+[color~="txt:DeepPurple:600"] {
+  color: #5e35b1;
+}
+[color~="txt:DeepPurple:700"] {
+  color: #512da8;
+}
+[color~="txt:DeepPurple:800"] {
+  color: #4527a0;
+}
+[color~="txt:DeepPurple:900"] {
+  color: #311b92;
+}
+[color~="txt:DeepPurple:A100"] {
+  color: #b388ff;
+}
+[color~="txt:DeepPurple:A200"] {
+  color: #7c4dff;
+}
+[color~="txt:DeepPurple:A400"] {
+  color: #651fff;
+}
+[color~="txt:DeepPurple:A700"] {
+  color: #6200ea;
+}
+[color~="bg:Indigo"] {
+  color: #fff;
+}
+[color~="txt:Indigo"] {
+  color: #3f51b5;
+}
+[color~="txt:Indigo:50"] {
+  color: #e8eaf6;
+}
+[color~="txt:Indigo:100"] {
+  color: #c5cae9;
+}
+[color~="txt:Indigo:200"] {
+  color: #9fa8da;
+}
+[color~="txt:Indigo:300"] {
+  color: #7986cb;
+}
+[color~="txt:Indigo:400"] {
+  color: #5c6bc0;
+}
+[color~="txt:Indigo:500"] {
+  color: #3f51b5;
+}
+[color~="txt:Indigo:600"] {
+  color: #3949ab;
+}
+[color~="txt:Indigo:700"] {
+  color: #303f9f;
+}
+[color~="txt:Indigo:800"] {
+  color: #283593;
+}
+[color~="txt:Indigo:900"] {
+  color: #1a237e;
+}
+[color~="txt:Indigo:A100"] {
+  color: #8c9eff;
+}
+[color~="txt:Indigo:A200"] {
+  color: #536dfe;
+}
+[color~="txt:Indigo:A400"] {
+  color: #3d5afe;
+}
+[color~="txt:Indigo:A700"] {
+  color: #304ffe;
+}
+[color~="bg:Blue"] {
+  color: #fff;
+}
+[color~="txt:Blue"] {
+  color: #2196f3;
+}
+[color~="txt:Blue:50"] {
+  color: #e3f2fd;
+}
+[color~="txt:Blue:100"] {
+  color: #bbdefb;
+}
+[color~="txt:Blue:200"] {
+  color: #90caf9;
+}
+[color~="txt:Blue:300"] {
+  color: #64b5f6;
+}
+[color~="txt:Blue:400"] {
+  color: #42a5f5;
+}
+[color~="txt:Blue:500"] {
+  color: #2196f3;
+}
+[color~="txt:Blue:600"] {
+  color: #1e88e5;
+}
+[color~="txt:Blue:700"] {
+  color: #1976d2;
+}
+[color~="txt:Blue:800"] {
+  color: #1565c0;
+}
+[color~="txt:Blue:900"] {
+  color: #0d47a1;
+}
+[color~="txt:Blue:A100"] {
+  color: #82b1ff;
+}
+[color~="txt:Blue:A200"] {
+  color: #448aff;
+}
+[color~="txt:Blue:A400"] {
+  color: #2979ff;
+}
+[color~="txt:Blue:A700"] {
+  color: #2962ff;
+}
+[color~="bg:LightBlue"] {
+  color: #fff;
+}
+[color~="txt:LightBlue"] {
+  color: #03a9f4;
+}
+[color~="txt:LightBlue:50"] {
+  color: #e1f5fe;
+}
+[color~="txt:LightBlue:100"] {
+  color: #b3e5fc;
+}
+[color~="txt:LightBlue:200"] {
+  color: #81d4fa;
+}
+[color~="txt:LightBlue:300"] {
+  color: #4fc3f7;
+}
+[color~="txt:LightBlue:400"] {
+  color: #29b6f6;
+}
+[color~="txt:LightBlue:500"] {
+  color: #03a9f4;
+}
+[color~="txt:LightBlue:600"] {
+  color: #039be5;
+}
+[color~="txt:LightBlue:700"] {
+  color: #0288d1;
+}
+[color~="txt:LightBlue:800"] {
+  color: #0277bd;
+}
+[color~="txt:LightBlue:900"] {
+  color: #01579b;
+}
+[color~="txt:LightBlue:A100"] {
+  color: #80d8ff;
+}
+[color~="txt:LightBlue:A200"] {
+  color: #40c4ff;
+}
+[color~="txt:LightBlue:A400"] {
+  color: #00b0ff;
+}
+[color~="txt:LightBlue:A700"] {
+  color: #0091ea;
+}
+[color~="bg:Cyan"] {
+  color: #fff;
+}
+[color~="txt:Cyan"] {
+  color: #00bcd4;
+}
+[color~="txt:Cyan:50"] {
+  color: #e0f7fa;
+}
+[color~="txt:Cyan:100"] {
+  color: #b2ebf2;
+}
+[color~="txt:Cyan:200"] {
+  color: #80deea;
+}
+[color~="txt:Cyan:300"] {
+  color: #4dd0e1;
+}
+[color~="txt:Cyan:400"] {
+  color: #26c6da;
+}
+[color~="txt:Cyan:500"] {
+  color: #00bcd4;
+}
+[color~="txt:Cyan:600"] {
+  color: #00acc1;
+}
+[color~="txt:Cyan:700"] {
+  color: #0097a7;
+}
+[color~="txt:Cyan:800"] {
+  color: #00838f;
+}
+[color~="txt:Cyan:900"] {
+  color: #006064;
+}
+[color~="txt:Cyan:A100"] {
+  color: #84ffff;
+}
+[color~="txt:Cyan:A200"] {
+  color: #18ffff;
+}
+[color~="txt:Cyan:A400"] {
+  color: #00e5ff;
+}
+[color~="txt:Cyan:A700"] {
+  color: #00b8d4;
+}
+[color~="bg:Teal"] {
+  color: #fff;
+}
+[color~="txt:Teal"] {
+  color: #009688;
+}
+[color~="txt:Teal:50"] {
+  color: #e0f2f1;
+}
+[color~="txt:Teal:100"] {
+  color: #b2dfdb;
+}
+[color~="txt:Teal:200"] {
+  color: #80cbc4;
+}
+[color~="txt:Teal:300"] {
+  color: #4db6ac;
+}
+[color~="txt:Teal:400"] {
+  color: #26a69a;
+}
+[color~="txt:Teal:500"] {
+  color: #009688;
+}
+[color~="txt:Teal:600"] {
+  color: #00897b;
+}
+[color~="txt:Teal:700"] {
+  color: #00796b;
+}
+[color~="txt:Teal:800"] {
+  color: #00695c;
+}
+[color~="txt:Teal:900"] {
+  color: #004d40;
+}
+[color~="txt:Teal:A100"] {
+  color: #a7ffeb;
+}
+[color~="txt:Teal:A200"] {
+  color: #64ffda;
+}
+[color~="txt:Teal:A400"] {
+  color: #1de9b6;
+}
+[color~="txt:Teal:A700"] {
+  color: #00bfa5;
+}
+[color~="bg:Green"] {
+  color: #fff;
+}
+[color~="txt:Green"] {
+  color: #4caf50;
+}
+[color~="txt:Green:50"] {
+  color: #e8f5e9;
+}
+[color~="txt:Green:100"] {
+  color: #c8e6c9;
+}
+[color~="txt:Green:200"] {
+  color: #a5d6a7;
+}
+[color~="txt:Green:300"] {
+  color: #81c784;
+}
+[color~="txt:Green:400"] {
+  color: #66bb6a;
+}
+[color~="txt:Green:500"] {
+  color: #4caf50;
+}
+[color~="txt:Green:600"] {
+  color: #43a047;
+}
+[color~="txt:Green:700"] {
+  color: #388e3c;
+}
+[color~="txt:Green:800"] {
+  color: #2e7d32;
+}
+[color~="txt:Green:900"] {
+  color: #1b5e20;
+}
+[color~="txt:Green:A100"] {
+  color: #b9f6ca;
+}
+[color~="txt:Green:A200"] {
+  color: #69f0ae;
+}
+[color~="txt:Green:A400"] {
+  color: #00e676;
+}
+[color~="txt:Green:A700"] {
+  color: #00c853;
+}
+[color~="bg:LightGreen"] {
+  color: #fff;
+}
+[color~="txt:LightGreen"] {
+  color: #8bc34a;
+}
+[color~="txt:LightGreen:50"] {
+  color: #f1f8e9;
+}
+[color~="txt:LightGreen:100"] {
+  color: #dcedc8;
+}
+[color~="txt:LightGreen:200"] {
+  color: #c5e1a5;
+}
+[color~="txt:LightGreen:300"] {
+  color: #aed581;
+}
+[color~="txt:LightGreen:400"] {
+  color: #9ccc65;
+}
+[color~="txt:LightGreen:500"] {
+  color: #8bc34a;
+}
+[color~="txt:LightGreen:600"] {
+  color: #7cb342;
+}
+[color~="txt:LightGreen:700"] {
+  color: #689f38;
+}
+[color~="txt:LightGreen:800"] {
+  color: #558b2f;
+}
+[color~="txt:LightGreen:900"] {
+  color: #33691e;
+}
+[color~="txt:LightGreen:A100"] {
+  color: #ccff90;
+}
+[color~="txt:LightGreen:A200"] {
+  color: #b2ff59;
+}
+[color~="txt:LightGreen:A400"] {
+  color: #76ff03;
+}
+[color~="txt:LightGreen:A700"] {
+  color: #64dd17;
+}
+[color~="bg:Lime"] {
+  color: #fff;
+}
+[color~="txt:Lime"] {
+  color: #cddc39;
+}
+[color~="txt:Lime:50"] {
+  color: #f9fbe7;
+}
+[color~="txt:Lime:100"] {
+  color: #f0f4c3;
+}
+[color~="txt:Lime:200"] {
+  color: #e6ee9c;
+}
+[color~="txt:Lime:300"] {
+  color: #dce775;
+}
+[color~="txt:Lime:400"] {
+  color: #d4e157;
+}
+[color~="txt:Lime:500"] {
+  color: #cddc39;
+}
+[color~="txt:Lime:600"] {
+  color: #c0ca33;
+}
+[color~="txt:Lime:700"] {
+  color: #afb42b;
+}
+[color~="txt:Lime:800"] {
+  color: #9e9d24;
+}
+[color~="txt:Lime:900"] {
+  color: #827717;
+}
+[color~="txt:Lime:A100"] {
+  color: #f4ff81;
+}
+[color~="txt:Lime:A200"] {
+  color: #eeff41;
+}
+[color~="txt:Lime:A400"] {
+  color: #c6ff00;
+}
+[color~="txt:Lime:A700"] {
+  color: #aeea00;
+}
+[color~="bg:Yellow"] {
+  color: #fff;
+}
+[color~="txt:Yellow"] {
+  color: #ffeb3b;
+}
+[color~="txt:Yellow:50"] {
+  color: #fffde7;
+}
+[color~="txt:Yellow:100"] {
+  color: #fff9c4;
+}
+[color~="txt:Yellow:200"] {
+  color: #fff59d;
+}
+[color~="txt:Yellow:300"] {
+  color: #fff176;
+}
+[color~="txt:Yellow:400"] {
+  color: #ffee58;
+}
+[color~="txt:Yellow:500"] {
+  color: #ffeb3b;
+}
+[color~="txt:Yellow:600"] {
+  color: #fdd835;
+}
+[color~="txt:Yellow:700"] {
+  color: #fbc02d;
+}
+[color~="txt:Yellow:800"] {
+  color: #f9a825;
+}
+[color~="txt:Yellow:900"] {
+  color: #f57f17;
+}
+[color~="txt:Yellow:A100"] {
+  color: #ffff8d;
+}
+[color~="txt:Yellow:A200"] {
+  color: #ff0;
+}
+[color~="txt:Yellow:A400"] {
+  color: #ffea00;
+}
+[color~="txt:Yellow:A700"] {
+  color: #ffd600;
+}
+[color~="bg:Amber"] {
+  color: #fff;
+}
+[color~="txt:Amber"] {
+  color: #ffc107;
+}
+[color~="txt:Amber:50"] {
+  color: #fff8e1;
+}
+[color~="txt:Amber:100"] {
+  color: #ffecb3;
+}
+[color~="txt:Amber:200"] {
+  color: #ffe082;
+}
+[color~="txt:Amber:300"] {
+  color: #ffd54f;
+}
+[color~="txt:Amber:400"] {
+  color: #ffca28;
+}
+[color~="txt:Amber:500"] {
+  color: #ffc107;
+}
+[color~="txt:Amber:600"] {
+  color: #ffb300;
+}
+[color~="txt:Amber:700"] {
+  color: #ffa000;
+}
+[color~="txt:Amber:800"] {
+  color: #ff8f00;
+}
+[color~="txt:Amber:900"] {
+  color: #ff6f00;
+}
+[color~="txt:Amber:A100"] {
+  color: #ffe57f;
+}
+[color~="txt:Amber:A200"] {
+  color: #ffd740;
+}
+[color~="txt:Amber:A400"] {
+  color: #ffc400;
+}
+[color~="txt:Amber:A700"] {
+  color: #ffab00;
+}
+[color~="bg:Orange"] {
+  color: #fff;
+}
+[color~="txt:Orange"] {
+  color: #ff9800;
+}
+[color~="txt:Orange:50"] {
+  color: #fff3e0;
+}
+[color~="txt:Orange:100"] {
+  color: #ffe0b2;
+}
+[color~="txt:Orange:200"] {
+  color: #ffcc80;
+}
+[color~="txt:Orange:300"] {
+  color: #ffb74d;
+}
+[color~="txt:Orange:400"] {
+  color: #ffa726;
+}
+[color~="txt:Orange:500"] {
+  color: #ff9800;
+}
+[color~="txt:Orange:600"] {
+  color: #fb8c00;
+}
+[color~="txt:Orange:700"] {
+  color: #f57c00;
+}
+[color~="txt:Orange:800"] {
+  color: #ef6c00;
+}
+[color~="txt:Orange:900"] {
+  color: #e65100;
+}
+[color~="txt:Orange:A100"] {
+  color: #ffd180;
+}
+[color~="txt:Orange:A200"] {
+  color: #ffab40;
+}
+[color~="txt:Orange:A400"] {
+  color: #ff9100;
+}
+[color~="txt:Orange:A700"] {
+  color: #ff6d00;
+}
+[color~="bg:DeepOrange"] {
+  color: #fff;
+}
+[color~="txt:DeepOrange"] {
+  color: #ff5722;
+}
+[color~="txt:DeepOrange:50"] {
+  color: #fbe9e7;
+}
+[color~="txt:DeepOrange:100"] {
+  color: #ffccbc;
+}
+[color~="txt:DeepOrange:200"] {
+  color: #ffab91;
+}
+[color~="txt:DeepOrange:300"] {
+  color: #ff8a65;
+}
+[color~="txt:DeepOrange:400"] {
+  color: #ff7043;
+}
+[color~="txt:DeepOrange:500"] {
+  color: #ff5722;
+}
+[color~="txt:DeepOrange:600"] {
+  color: #f4511e;
+}
+[color~="txt:DeepOrange:700"] {
+  color: #e64a19;
+}
+[color~="txt:DeepOrange:800"] {
+  color: #d84315;
+}
+[color~="txt:DeepOrange:900"] {
+  color: #bf360c;
+}
+[color~="txt:DeepOrange:A100"] {
+  color: #ff9e80;
+}
+[color~="txt:DeepOrange:A200"] {
+  color: #ff6e40;
+}
+[color~="txt:DeepOrange:A400"] {
+  color: #ff3d00;
+}
+[color~="txt:DeepOrange:A700"] {
+  color: #dd2c00;
+}
+[color~="bg:Brown"] {
+  color: #fff;
+}
+[color~="txt:Brown"] {
+  color: #795548;
+}
+[color~="txt:Brown:50"] {
+  color: #efebe9;
+}
+[color~="txt:Brown:100"] {
+  color: #d7ccc8;
+}
+[color~="txt:Brown:200"] {
+  color: #bcaaa4;
+}
+[color~="txt:Brown:300"] {
+  color: #a1887f;
+}
+[color~="txt:Brown:400"] {
+  color: #8d6e63;
+}
+[color~="txt:Brown:500"] {
+  color: #795548;
+}
+[color~="txt:Brown:600"] {
+  color: #6d4c41;
+}
+[color~="txt:Brown:700"] {
+  color: #5d4037;
+}
+[color~="txt:Brown:800"] {
+  color: #4e342e;
+}
+[color~="txt:Brown:900"] {
+  color: #3e2723;
+}
+[color~="bg:Grey"] {
+  color: #fff;
+}
+[color~="txt:Grey"] {
+  color: #9e9e9e;
+}
+[color~="txt:Grey:50"] {
+  color: #fafafa;
+}
+[color~="txt:Grey:100"] {
+  color: #f5f5f5;
+}
+[color~="txt:Grey:200"] {
+  color: #eee;
+}
+[color~="txt:Grey:300"] {
+  color: #e0e0e0;
+}
+[color~="txt:Grey:400"] {
+  color: #bdbdbd;
+}
+[color~="txt:Grey:500"] {
+  color: #9e9e9e;
+}
+[color~="txt:Grey:600"] {
+  color: #757575;
+}
+[color~="txt:Grey:700"] {
+  color: #616161;
+}
+[color~="txt:Grey:800"] {
+  color: #424242;
+}
+[color~="txt:Grey:900"] {
+  color: #212121;
+}
+[color~="bg:BlueGrey"] {
+  color: #fff;
+}
+[color~="txt:BlueGrey"] {
+  color: #607d8b;
+}
+[color~="txt:BlueGrey:50"] {
+  color: #eceff1;
+}
+[color~="txt:BlueGrey:100"] {
+  color: #cfd8dc;
+}
+[color~="txt:BlueGrey:200"] {
+  color: #b0bec5;
+}
+[color~="txt:BlueGrey:300"] {
+  color: #90a4ae;
+}
+[color~="txt:BlueGrey:400"] {
+  color: #78909c;
+}
+[color~="txt:BlueGrey:500"] {
+  color: #607d8b;
+}
+[color~="txt:BlueGrey:600"] {
+  color: #546e7a;
+}
+[color~="txt:BlueGrey:700"] {
+  color: #455a64;
+}
+[color~="txt:BlueGrey:800"] {
+  color: #37474f;
+}
+[color~="txt:BlueGrey:900"] {
+  color: #263238;
+}
+[color~="txt:White"] {
+  color: White;
+}
+[color~="txt:Black"] {
+  color: Black;
+}

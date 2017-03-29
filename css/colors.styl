@@ -1,0 +1,25 @@
+@import palette
+
+for bc in 'bg''txt'
+
+	for colors in Red Pink Purple DeepPurple Indigo Blue LightBlue Cyan Teal Green LightGreen Lime Yellow Amber Orange DeepOrange
+		[color~=\"bg:{colors}\"]
+			color white
+		[color~=\"{bc}:{colors}\"]
+			{(bc is 'txt'?'color':'background-color')} palette(colors,'500')
+		for accent in '50''100''200''300''400''500''600''700''800''900''A100''A200''A400''A700'
+			[color~=\"{bc}:{colors}:{accent}\"]
+				{(bc is 'txt'?'color':'background-color')} palette(colors,accent)
+
+	for colors in Brown Grey BlueGrey
+		[color~=\"bg:{colors}\"]
+			color white
+		[color~=\"{bc}:{colors}\"]
+			{(bc is 'txt'?'color':'background-color')} palette(colors,'500')
+		for accent in '50''100''200''300''400''500''600''700''800''900'
+			[color~=\"{bc}:{colors}:{accent}\"]
+				{(bc is 'txt'?'color':'background-color')} palette(colors,accent)
+
+	for colors in White Black
+		[color~=\"{bc}:{colors}\"]
+			{(bc is 'txt'?'color':'background-color')} colors

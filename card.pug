@@ -1,0 +1,36 @@
+doctype
+html(lang="es-ES")
+	head
+		title Framework
+		meta(charset:utf-8)
+		link(href="css/grid.css" rel="stylesheet")
+		link(href="css/colors.css" rel="stylesheet")
+		link(href="css/components.css" rel="stylesheet")
+		link(href="css/Roboto.css" rel="stylesheet")
+		link(href="css/MaterialIcons.css" rel="stylesheet")
+		meta(name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0")
+	body(StickyFooter)
+		header(color="bg:BlueGrey txt:White") HEADER
+		main
+			div(grid="mobile:1/2:21:9 tablet:2/3:21.9 desktop:1/3:4.3")
+				div(cell="mobile:1/1:21:9 tablet:1/1:21.9")
+					figure(card)
+						header
+							img(src="http://lorempixel.com/48/48/people")
+							div
+								h4 Julio Verne
+								small Aventurero
+						img(src="img/1.jpg")
+						figcaption Tras diez años de teletrabajo, esto puedo decir sobre los mitos y realidad de trabajar desde casa.
+				div(cell="tablet:2/3:21.9")
+					figure(card)
+						img(src="img/2.jpg")
+						figcaption ¡Betas! La octava de macOS Sierra 10.12.4 y la séptima de watchOS 3.2 ya disponibles.
+						footer(buttons)
+							a(href="#" before="folder") MacBook
+							a(href="#" before="folder") Pro
+				div(cell="tablet:1/3:21.9")
+					figure(card)
+						img(src="img/3.jpg")
+						figcaption Apple lanza la séptima beta de iOS 10.3 y macOS 10.12.4 para desarrolladores.
+		footer(color="bg:BlueGrey txt:White") FOOTER

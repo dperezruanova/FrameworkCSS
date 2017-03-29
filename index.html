@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+  <head>
+    <title>Framework</title>
+    <meta charset:utf-8>
+    <link href="css/grid.css" rel="stylesheet">
+    <link href="css/colors.css" rel="stylesheet">
+    <link href="css/components.css" rel="stylesheet">
+    <link href="css/Roboto.css" rel="stylesheet">
+    <link href="css/MaterialIcons.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  </head>
+  <body StickyFooter color="bg:Grey:100">
+    <header color="bg:BlueGrey txt:White">HEADER</header>
+    <main>
+      <div style="box-shadow:0 0 0 1px lime; width:1920px;"></div>
+      <div style="box-shadow:0 0 0 1px red; width:1280px;"></div>
+      <div style="box-shadow:0 0 0 1px lime; width:800px;"></div>
+      <div style="box-shadow:0 0 0 1px red; width:640px;"></div>
+      <div style="box-shadow:0 0 0 1px lime; width:360px;"></div>
+      <div></div>
+      <div grid="360:1/1:21.9 640:1/2:21.9 800:1/2:21.9 1280:1/3:21.9 1366:1/3:21.9 1920:1/5:21.9">
+        <div cell="640:1/1:21.9 800:1/1:21.9">
+          <figure card>
+            <header><img src="http://lorempixel.com/48/48/people">
+              <div>
+                <h4>Julio Verne</h4><small>Aventurero</small>
+              </div>
+            </header><img src="img/1.jpg">
+            <figcaption>Tras diez años de teletrabajo, esto puedo decir sobre los mitos y realidad de trabajar desde casa.</figcaption>
+          </figure>
+        </div>
+        <div cell="">
+          <figure card><img src="img/2.jpg">
+            <figcaption>¡Betas! La octava de macOS Sierra 10.12.4 y la séptima de watchOS 3.2 ya disponibles.</figcaption>
+            <footer buttons><a href="#" before="folder">MacBook</a><a href="#" before="folder">Pro</a></footer>
+          </figure>
+        </div>
+        <div cell="">
+          <figure card><img src="img/3.jpg">
+            <figcaption>Apple lanza la séptima beta de iOS 10.3 y macOS 10.12.4 para desarrolladores.</figcaption>
+          </figure>
+        </div>
+      </div>
+    </main>
+    <footer color="bg:BlueGrey txt:White">FOOTER</footer>
+  </body>
+</html>
