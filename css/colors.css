@@ -1,5 +1,12 @@
-[color~="bg:Red"] {
+[color*="bg:"] {
   color: #fff;
+}
+[color*="bg:"][color*=":50"],
+[color*="bg:"][color*=":100"],
+[color*="bg:"][color*=":200"],
+[color*="bg:"][color*=":300"],
+[color*="bg:"][color*=":400"] {
+  color: #000;
 }
 [color~="bg:Red"] {
   background-color: #f44336;
@@ -47,9 +54,6 @@
   background-color: #d50000;
 }
 [color~="bg:Pink"] {
-  color: #fff;
-}
-[color~="bg:Pink"] {
   background-color: #e91e63;
 }
 [color~="bg:Pink:50"] {
@@ -93,9 +97,6 @@
 }
 [color~="bg:Pink:A700"] {
   background-color: #c51162;
-}
-[color~="bg:Purple"] {
-  color: #fff;
 }
 [color~="bg:Purple"] {
   background-color: #9c27b0;
@@ -143,9 +144,6 @@
   background-color: #a0f;
 }
 [color~="bg:DeepPurple"] {
-  color: #fff;
-}
-[color~="bg:DeepPurple"] {
   background-color: #673ab7;
 }
 [color~="bg:DeepPurple:50"] {
@@ -189,9 +187,6 @@
 }
 [color~="bg:DeepPurple:A700"] {
   background-color: #6200ea;
-}
-[color~="bg:Indigo"] {
-  color: #fff;
 }
 [color~="bg:Indigo"] {
   background-color: #3f51b5;
@@ -239,9 +234,6 @@
   background-color: #304ffe;
 }
 [color~="bg:Blue"] {
-  color: #fff;
-}
-[color~="bg:Blue"] {
   background-color: #2196f3;
 }
 [color~="bg:Blue:50"] {
@@ -285,9 +277,6 @@
 }
 [color~="bg:Blue:A700"] {
   background-color: #2962ff;
-}
-[color~="bg:LightBlue"] {
-  color: #fff;
 }
 [color~="bg:LightBlue"] {
   background-color: #03a9f4;
@@ -335,9 +324,6 @@
   background-color: #0091ea;
 }
 [color~="bg:Cyan"] {
-  color: #fff;
-}
-[color~="bg:Cyan"] {
   background-color: #00bcd4;
 }
 [color~="bg:Cyan:50"] {
@@ -381,9 +367,6 @@
 }
 [color~="bg:Cyan:A700"] {
   background-color: #00b8d4;
-}
-[color~="bg:Teal"] {
-  color: #fff;
 }
 [color~="bg:Teal"] {
   background-color: #009688;
@@ -431,9 +414,6 @@
   background-color: #00bfa5;
 }
 [color~="bg:Green"] {
-  color: #fff;
-}
-[color~="bg:Green"] {
   background-color: #4caf50;
 }
 [color~="bg:Green:50"] {
@@ -477,9 +457,6 @@
 }
 [color~="bg:Green:A700"] {
   background-color: #00c853;
-}
-[color~="bg:LightGreen"] {
-  color: #fff;
 }
 [color~="bg:LightGreen"] {
   background-color: #8bc34a;
@@ -527,9 +504,6 @@
   background-color: #64dd17;
 }
 [color~="bg:Lime"] {
-  color: #fff;
-}
-[color~="bg:Lime"] {
   background-color: #cddc39;
 }
 [color~="bg:Lime:50"] {
@@ -573,9 +547,6 @@
 }
 [color~="bg:Lime:A700"] {
   background-color: #aeea00;
-}
-[color~="bg:Yellow"] {
-  color: #fff;
 }
 [color~="bg:Yellow"] {
   background-color: #ffeb3b;
@@ -623,9 +594,6 @@
   background-color: #ffd600;
 }
 [color~="bg:Amber"] {
-  color: #fff;
-}
-[color~="bg:Amber"] {
   background-color: #ffc107;
 }
 [color~="bg:Amber:50"] {
@@ -669,9 +637,6 @@
 }
 [color~="bg:Amber:A700"] {
   background-color: #ffab00;
-}
-[color~="bg:Orange"] {
-  color: #fff;
 }
 [color~="bg:Orange"] {
   background-color: #ff9800;
@@ -719,9 +684,6 @@
   background-color: #ff6d00;
 }
 [color~="bg:DeepOrange"] {
-  color: #fff;
-}
-[color~="bg:DeepOrange"] {
   background-color: #ff5722;
 }
 [color~="bg:DeepOrange:50"] {
@@ -767,9 +729,6 @@
   background-color: #dd2c00;
 }
 [color~="bg:Brown"] {
-  color: #fff;
-}
-[color~="bg:Brown"] {
   background-color: #795548;
 }
 [color~="bg:Brown:50"] {
@@ -803,9 +762,6 @@
   background-color: #3e2723;
 }
 [color~="bg:Grey"] {
-  color: #fff;
-}
-[color~="bg:Grey"] {
   background-color: #9e9e9e;
 }
 [color~="bg:Grey:50"] {
@@ -837,9 +793,6 @@
 }
 [color~="bg:Grey:900"] {
   background-color: #212121;
-}
-[color~="bg:BlueGrey"] {
-  color: #fff;
 }
 [color~="bg:BlueGrey"] {
   background-color: #607d8b;
@@ -879,9 +832,6 @@
 }
 [color~="bg:Black"] {
   background-color: Black;
-}
-[color~="bg:Red"] {
-  color: #fff;
 }
 [color~="txt:Red"] {
   color: #f44336;
@@ -928,9 +878,6 @@
 [color~="txt:Red:A700"] {
   color: #d50000;
 }
-[color~="bg:Pink"] {
-  color: #fff;
-}
 [color~="txt:Pink"] {
   color: #e91e63;
 }
@@ -975,9 +922,6 @@
 }
 [color~="txt:Pink:A700"] {
   color: #c51162;
-}
-[color~="bg:Purple"] {
-  color: #fff;
 }
 [color~="txt:Purple"] {
   color: #9c27b0;
@@ -1024,9 +968,6 @@
 [color~="txt:Purple:A700"] {
   color: #a0f;
 }
-[color~="bg:DeepPurple"] {
-  color: #fff;
-}
 [color~="txt:DeepPurple"] {
   color: #673ab7;
 }
@@ -1071,9 +1012,6 @@
 }
 [color~="txt:DeepPurple:A700"] {
   color: #6200ea;
-}
-[color~="bg:Indigo"] {
-  color: #fff;
 }
 [color~="txt:Indigo"] {
   color: #3f51b5;
@@ -1120,9 +1058,6 @@
 [color~="txt:Indigo:A700"] {
   color: #304ffe;
 }
-[color~="bg:Blue"] {
-  color: #fff;
-}
 [color~="txt:Blue"] {
   color: #2196f3;
 }
@@ -1167,9 +1102,6 @@
 }
 [color~="txt:Blue:A700"] {
   color: #2962ff;
-}
-[color~="bg:LightBlue"] {
-  color: #fff;
 }
 [color~="txt:LightBlue"] {
   color: #03a9f4;
@@ -1216,9 +1148,6 @@
 [color~="txt:LightBlue:A700"] {
   color: #0091ea;
 }
-[color~="bg:Cyan"] {
-  color: #fff;
-}
 [color~="txt:Cyan"] {
   color: #00bcd4;
 }
@@ -1263,9 +1192,6 @@
 }
 [color~="txt:Cyan:A700"] {
   color: #00b8d4;
-}
-[color~="bg:Teal"] {
-  color: #fff;
 }
 [color~="txt:Teal"] {
   color: #009688;
@@ -1312,9 +1238,6 @@
 [color~="txt:Teal:A700"] {
   color: #00bfa5;
 }
-[color~="bg:Green"] {
-  color: #fff;
-}
 [color~="txt:Green"] {
   color: #4caf50;
 }
@@ -1359,9 +1282,6 @@
 }
 [color~="txt:Green:A700"] {
   color: #00c853;
-}
-[color~="bg:LightGreen"] {
-  color: #fff;
 }
 [color~="txt:LightGreen"] {
   color: #8bc34a;
@@ -1408,9 +1328,6 @@
 [color~="txt:LightGreen:A700"] {
   color: #64dd17;
 }
-[color~="bg:Lime"] {
-  color: #fff;
-}
 [color~="txt:Lime"] {
   color: #cddc39;
 }
@@ -1455,9 +1372,6 @@
 }
 [color~="txt:Lime:A700"] {
   color: #aeea00;
-}
-[color~="bg:Yellow"] {
-  color: #fff;
 }
 [color~="txt:Yellow"] {
   color: #ffeb3b;
@@ -1504,9 +1418,6 @@
 [color~="txt:Yellow:A700"] {
   color: #ffd600;
 }
-[color~="bg:Amber"] {
-  color: #fff;
-}
 [color~="txt:Amber"] {
   color: #ffc107;
 }
@@ -1551,9 +1462,6 @@
 }
 [color~="txt:Amber:A700"] {
   color: #ffab00;
-}
-[color~="bg:Orange"] {
-  color: #fff;
 }
 [color~="txt:Orange"] {
   color: #ff9800;
@@ -1600,9 +1508,6 @@
 [color~="txt:Orange:A700"] {
   color: #ff6d00;
 }
-[color~="bg:DeepOrange"] {
-  color: #fff;
-}
 [color~="txt:DeepOrange"] {
   color: #ff5722;
 }
@@ -1648,9 +1553,6 @@
 [color~="txt:DeepOrange:A700"] {
   color: #dd2c00;
 }
-[color~="bg:Brown"] {
-  color: #fff;
-}
 [color~="txt:Brown"] {
   color: #795548;
 }
@@ -1684,9 +1586,6 @@
 [color~="txt:Brown:900"] {
   color: #3e2723;
 }
-[color~="bg:Grey"] {
-  color: #fff;
-}
 [color~="txt:Grey"] {
   color: #9e9e9e;
 }
@@ -1719,9 +1618,6 @@
 }
 [color~="txt:Grey:900"] {
   color: #212121;
-}
-[color~="bg:BlueGrey"] {
-  color: #fff;
 }
 [color~="txt:BlueGrey"] {
   color: #607d8b;
