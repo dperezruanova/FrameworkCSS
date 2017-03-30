@@ -1,11 +1,5 @@
 @import palette
 
-[color*=\"bg:\"]
-	color white
-
-[color*=\"bg:\"][color*=\":50\"],[color*=\"bg:\"][color*=\":100\"],[color*=\"bg:\"][color*=\":200\"],[color*=\"bg:\"][color*=\":300\"],[color*=\"bg:\"][color*=\":400\"]
-	color black
-
 for bc in 'bg''txt'
 
 	for colors in Red Pink Purple DeepPurple Indigo Blue LightBlue Cyan Teal Green LightGreen Lime Yellow Amber Orange DeepOrange
@@ -22,6 +16,53 @@ for bc in 'bg''txt'
 			[color~=\"{bc}:{colors}:{accent}\"]
 				{(bc is 'txt'?'color':'background-color')} palette(colors,accent)
 
-	for colors in White Black
-		[color~=\"{bc}:{colors}\"]
-			{(bc is 'txt'?'color':'background-color')} colors
+	for colors in colors = White white, Black black
+		[color~=\"{bc}:{colors[0]}\"]
+			{(bc is 'txt'?'color':'background-color')} colors[1]
+
+
+white(color,grade)
+	sep = grade is null?null:':'
+	[color~=\"bg:{color}{sep}{grade}\"]
+		color white
+
+for color in Pink Purple DeepPurple Indigo Brown
+	for grade in null'300''400''500''600''700''800''900'
+		white(color,grade)
+
+for grade in null'400''500''600''700''800''900'
+	white(Red,grade)
+	white(BlueGrey,grade)
+
+for color in Blue DeepOrange Teal
+	for grade in null'500''600''700''800''900'
+		white(color,grade)
+
+for color in LightBlue Green Grey
+	for grade in '600''700''800''900'
+		white(color,grade)
+
+for grade in '700''800''900'
+	white(Cyan,grade)
+	white(LightGreen,grade)
+
+white(Orange,'800')
+white(Orange,'900')
+
+white(Lime,'900')
+
+white(Amber,'900')
+white(Yellow,'900')
+
+for color in Pink Purple DeepPurple Indigo Red Blue
+	for grade in A200 A400 A700
+		white(color,grade)
+
+white(DeepOrange,A400)
+white(DeepOrange,A700)
+
+white(LightBlue,A400)
+white(LightBlue,A700)
+
+for color in Teal Green Cyan LightGreen Orange Lime Yellow Amber
+	white(color,A700)

@@ -1,13 +1,3 @@
-[color*="bg:"] {
-  color: #fff;
-}
-[color*="bg:"][color*=":50"],
-[color*="bg:"][color*=":100"],
-[color*="bg:"][color*=":200"],
-[color*="bg:"][color*=":300"],
-[color*="bg:"][color*=":400"] {
-  color: #000;
-}
 [color~="bg:Red"] {
   background-color: #f44336;
 }
@@ -828,10 +818,10 @@
   background-color: #263238;
 }
 [color~="bg:White"] {
-  background-color: White;
+  background-color: #fff;
 }
 [color~="bg:Black"] {
-  background-color: Black;
+  background-color: #000;
 }
 [color~="txt:Red"] {
   color: #f44336;
@@ -1653,8 +1643,383 @@
   color: #263238;
 }
 [color~="txt:White"] {
-  color: White;
+  color: #fff;
 }
 [color~="txt:Black"] {
-  color: Black;
+  color: #000;
+}
+[color~="bg:Pink"] {
+  color: white;
+}
+[color~="bg:Pink:300"] {
+  color: white;
+}
+[color~="bg:Pink:400"] {
+  color: white;
+}
+[color~="bg:Pink:500"] {
+  color: white;
+}
+[color~="bg:Pink:600"] {
+  color: white;
+}
+[color~="bg:Pink:700"] {
+  color: white;
+}
+[color~="bg:Pink:800"] {
+  color: white;
+}
+[color~="bg:Pink:900"] {
+  color: white;
+}
+[color~="bg:Purple"] {
+  color: white;
+}
+[color~="bg:Purple:300"] {
+  color: white;
+}
+[color~="bg:Purple:400"] {
+  color: white;
+}
+[color~="bg:Purple:500"] {
+  color: white;
+}
+[color~="bg:Purple:600"] {
+  color: white;
+}
+[color~="bg:Purple:700"] {
+  color: white;
+}
+[color~="bg:Purple:800"] {
+  color: white;
+}
+[color~="bg:Purple:900"] {
+  color: white;
+}
+[color~="bg:DeepPurple"] {
+  color: white;
+}
+[color~="bg:DeepPurple:300"] {
+  color: white;
+}
+[color~="bg:DeepPurple:400"] {
+  color: white;
+}
+[color~="bg:DeepPurple:500"] {
+  color: white;
+}
+[color~="bg:DeepPurple:600"] {
+  color: white;
+}
+[color~="bg:DeepPurple:700"] {
+  color: white;
+}
+[color~="bg:DeepPurple:800"] {
+  color: white;
+}
+[color~="bg:DeepPurple:900"] {
+  color: white;
+}
+[color~="bg:Indigo"] {
+  color: white;
+}
+[color~="bg:Indigo:300"] {
+  color: white;
+}
+[color~="bg:Indigo:400"] {
+  color: white;
+}
+[color~="bg:Indigo:500"] {
+  color: white;
+}
+[color~="bg:Indigo:600"] {
+  color: white;
+}
+[color~="bg:Indigo:700"] {
+  color: white;
+}
+[color~="bg:Indigo:800"] {
+  color: white;
+}
+[color~="bg:Indigo:900"] {
+  color: white;
+}
+[color~="bg:Brown"] {
+  color: white;
+}
+[color~="bg:Brown:300"] {
+  color: white;
+}
+[color~="bg:Brown:400"] {
+  color: white;
+}
+[color~="bg:Brown:500"] {
+  color: white;
+}
+[color~="bg:Brown:600"] {
+  color: white;
+}
+[color~="bg:Brown:700"] {
+  color: white;
+}
+[color~="bg:Brown:800"] {
+  color: white;
+}
+[color~="bg:Brown:900"] {
+  color: white;
+}
+[color~="bg:Red"] {
+  color: white;
+}
+[color~="bg:BlueGrey"] {
+  color: white;
+}
+[color~="bg:Red:400"] {
+  color: white;
+}
+[color~="bg:BlueGrey:400"] {
+  color: white;
+}
+[color~="bg:Red:500"] {
+  color: white;
+}
+[color~="bg:BlueGrey:500"] {
+  color: white;
+}
+[color~="bg:Red:600"] {
+  color: white;
+}
+[color~="bg:BlueGrey:600"] {
+  color: white;
+}
+[color~="bg:Red:700"] {
+  color: white;
+}
+[color~="bg:BlueGrey:700"] {
+  color: white;
+}
+[color~="bg:Red:800"] {
+  color: white;
+}
+[color~="bg:BlueGrey:800"] {
+  color: white;
+}
+[color~="bg:Red:900"] {
+  color: white;
+}
+[color~="bg:BlueGrey:900"] {
+  color: white;
+}
+[color~="bg:Blue"] {
+  color: white;
+}
+[color~="bg:Blue:500"] {
+  color: white;
+}
+[color~="bg:Blue:600"] {
+  color: white;
+}
+[color~="bg:Blue:700"] {
+  color: white;
+}
+[color~="bg:Blue:800"] {
+  color: white;
+}
+[color~="bg:Blue:900"] {
+  color: white;
+}
+[color~="bg:DeepOrange"] {
+  color: white;
+}
+[color~="bg:DeepOrange:500"] {
+  color: white;
+}
+[color~="bg:DeepOrange:600"] {
+  color: white;
+}
+[color~="bg:DeepOrange:700"] {
+  color: white;
+}
+[color~="bg:DeepOrange:800"] {
+  color: white;
+}
+[color~="bg:DeepOrange:900"] {
+  color: white;
+}
+[color~="bg:Teal"] {
+  color: white;
+}
+[color~="bg:Teal:500"] {
+  color: white;
+}
+[color~="bg:Teal:600"] {
+  color: white;
+}
+[color~="bg:Teal:700"] {
+  color: white;
+}
+[color~="bg:Teal:800"] {
+  color: white;
+}
+[color~="bg:Teal:900"] {
+  color: white;
+}
+[color~="bg:LightBlue:600"] {
+  color: white;
+}
+[color~="bg:LightBlue:700"] {
+  color: white;
+}
+[color~="bg:LightBlue:800"] {
+  color: white;
+}
+[color~="bg:LightBlue:900"] {
+  color: white;
+}
+[color~="bg:Green:600"] {
+  color: white;
+}
+[color~="bg:Green:700"] {
+  color: white;
+}
+[color~="bg:Green:800"] {
+  color: white;
+}
+[color~="bg:Green:900"] {
+  color: white;
+}
+[color~="bg:Grey:600"] {
+  color: white;
+}
+[color~="bg:Grey:700"] {
+  color: white;
+}
+[color~="bg:Grey:800"] {
+  color: white;
+}
+[color~="bg:Grey:900"] {
+  color: white;
+}
+[color~="bg:Cyan:700"] {
+  color: white;
+}
+[color~="bg:LightGreen:700"] {
+  color: white;
+}
+[color~="bg:Cyan:800"] {
+  color: white;
+}
+[color~="bg:LightGreen:800"] {
+  color: white;
+}
+[color~="bg:Cyan:900"] {
+  color: white;
+}
+[color~="bg:LightGreen:900"] {
+  color: white;
+}
+[color~="bg:Orange:800"] {
+  color: white;
+}
+[color~="bg:Orange:900"] {
+  color: white;
+}
+[color~="bg:Lime:900"] {
+  color: white;
+}
+[color~="bg:Amber:900"] {
+  color: white;
+}
+[color~="bg:Yellow:900"] {
+  color: white;
+}
+[color~="bg:Pink:A200"] {
+  color: white;
+}
+[color~="bg:Pink:A400"] {
+  color: white;
+}
+[color~="bg:Pink:A700"] {
+  color: white;
+}
+[color~="bg:Purple:A200"] {
+  color: white;
+}
+[color~="bg:Purple:A400"] {
+  color: white;
+}
+[color~="bg:Purple:A700"] {
+  color: white;
+}
+[color~="bg:DeepPurple:A200"] {
+  color: white;
+}
+[color~="bg:DeepPurple:A400"] {
+  color: white;
+}
+[color~="bg:DeepPurple:A700"] {
+  color: white;
+}
+[color~="bg:Indigo:A200"] {
+  color: white;
+}
+[color~="bg:Indigo:A400"] {
+  color: white;
+}
+[color~="bg:Indigo:A700"] {
+  color: white;
+}
+[color~="bg:Red:A200"] {
+  color: white;
+}
+[color~="bg:Red:A400"] {
+  color: white;
+}
+[color~="bg:Red:A700"] {
+  color: white;
+}
+[color~="bg:Blue:A200"] {
+  color: white;
+}
+[color~="bg:Blue:A400"] {
+  color: white;
+}
+[color~="bg:Blue:A700"] {
+  color: white;
+}
+[color~="bg:DeepOrange:A400"] {
+  color: white;
+}
+[color~="bg:DeepOrange:A700"] {
+  color: white;
+}
+[color~="bg:LightBlue:A400"] {
+  color: white;
+}
+[color~="bg:LightBlue:A700"] {
+  color: white;
+}
+[color~="bg:Teal:A700"] {
+  color: white;
+}
+[color~="bg:Green:A700"] {
+  color: white;
+}
+[color~="bg:Cyan:A700"] {
+  color: white;
+}
+[color~="bg:LightGreen:A700"] {
+  color: white;
+}
+[color~="bg:Orange:A700"] {
+  color: white;
+}
+[color~="bg:Lime:A700"] {
+  color: white;
+}
+[color~="bg:Yellow:A700"] {
+  color: white;
+}
+[color~="bg:Amber:A700"] {
+  color: white;
 }
